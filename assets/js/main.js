@@ -42,7 +42,7 @@ let susIs = (A.slice(0,8) + A.slice(23));
 console.log(A.slice(0,8)); 
 console.log(A.slice(23));
 
-document.write(susi + "<br>" + is +"<br>"+ going +"<br>"+ school +"<br>"+ susIs);
+document.write(susi + "<br>" + is +"<br>"+ going +"<br>"+ school +"<br>"+ susIs+ "<br>");
 
 // lev1_5: substring 
 
@@ -54,7 +54,7 @@ let c = text.substring(text.indexOf("school"));
 // console.log(txt.indexOf("school"))
 let d = text.substring(0,8) + text.substring(24)
 
-document.write("<br>" + a + "<br>" + b + "<br>" + c + "<br>"+ d);
+document.write("<br>" + a + "<br>" + b + "<br>" + c + "<br>"+ d+ "<br>");
 
 // lev1_7: replace
 
@@ -66,7 +66,7 @@ let susiSchool = txtOrign.replace ("Sam", "Susi") .replace("codingschool", "scho
 
 let samTennis = txtOrign.replace("codingschool", "Tennis");
 
-document.write("<br>" + samSchool + "<br>" + susiSchool + "<br>" + samTennis)
+document.write("<br>" + samSchool + "<br>" + susiSchool + "<br>" + samTennis + "<br>")
 
 
 // lev1_8: toLowerCase-toUpperCase
@@ -92,7 +92,7 @@ let fifth = (second.slice(0, 1).toUpperCase().concat(second.slice(1,4)).concat (
 
 // console.log(second.slice(0, 1).toUpperCase().concat(second.slice(1,4)).concat (second.slice(4,5).toUpperCase()).concat(second.slice(5,6)).concat (second.slice(6,8).toUpperCase()).concat(second.slice(8,13)).concat(second.slice(13,14).toUpperCase()).concat(second.slice(14,16)).concat(second.slice(16,17).toUpperCase()).concat(second.slice(17)))
 
-document.write("<br>" + newSam + "<br>" + first + "<br>" + second + "<br>" + third + "<br>" + fourth + "<br>" + fifth)
+document.write("<br>" + newSam + "<br>" + first + "<br>" + second + "<br>" + third + "<br>" + fourth + "<br>" + fifth+ "<br>")
 
 
 
@@ -114,4 +114,23 @@ let case4 = `${text2} ${text3} `.concat(text1).replace("codingschool", "gym").re
 
 let case5 = `${text2}` + text1.slice(3).replace("codingschool", "school") + ` and to the movie theater`;
 
-document.write("<br>" + case1 + "<br>" + case2 + "<br>" + case3 + "<br>" + case4 + "<br>" + case5)
+document.write("<br>" + case1 + "<br>" + case2 + "<br>" + case3 + "<br>" + case4 + "<br>" + case5 + "<br>"+ "<br>")
+
+
+// // lev1_1: template-literals
+
+const myFirstName = "Laura-Ann"
+const myLastName = "Theißing"
+let myAge = 30
+const birth = "Niederrhein"
+let size = 1.58
+let weight = 54
+let hobby = "Draußen sein"
+let food = "Pizza Melanzane"
+let sport = "Ski fahren"
+let season = "Winter"
+let holiday = "überall wo ich mich wohlfühle"
+
+document.write (`Mein Name ist ${myFirstName} ${myLastName} und ich bin ${myAge} Jahre alt. Meine Größe und mein Gewicht sind ${size}m und ${weight}kg. Mein Lieblingshobby ist ${hobby} und mein Lieblingsessen ist ${food} und als Lieblingssport gehe ich ${sport}. Meine Lieblingsjahreszeit ist ${season} und ich mache gerne Urlaub ${holiday}.`)
+
+console.log(`Mein Name ist ${myFirstName} ${myLastName} und ich bin ${myAge} Jahre alt. Meine Größe und mein Gewicht sind ${size}m und ${weight}kg. Mein Lieblingshobby ist ${hobby} und mein Lieblingsessen ist ${food} und als Lieblingssport gehe ich ${sport}. Meine Lieblingsjahreszeit ist ${season} und ich mache gerne Urlaub ${holiday}.`);
