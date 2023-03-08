@@ -1,5 +1,6 @@
 console.log("läuft");
 
+
 // lev1_1: length
 
 let firstName = "Paula";
@@ -10,14 +11,16 @@ console.log(lastName.length);
 let fullName = firstName + lastName;
 console.log(fullName.length);
 
+
+
 // lev1_2: indexOf 
 
 const txt = "How inappropriate to call this planet Earth, when clearly it is Ocean.";
-// console.log(txt);
 
 console.log(txt.indexOf("h"))
 console.log(txt.indexOf("Earth"))
 console.log(txt.indexOf("Moon"))
+
 
 
 // lev1_4: slice 
@@ -44,6 +47,8 @@ console.log(A.slice(23));
 
 document.write(susi + "<br>" + is +"<br>"+ going +"<br>"+ school +"<br>"+ susIs+ "<br>");
 
+
+
 // lev1_5: substring 
 
 const text = 'Susi is back from codingschool';
@@ -56,6 +61,8 @@ let d = text.substring(0,8) + text.substring(24)
 
 document.write("<br>" + a + "<br>" + b + "<br>" + c + "<br>"+ d+ "<br>");
 
+
+
 // lev1_7: replace
 
 const txtOrign = "Sam is good at codingschool";
@@ -67,6 +74,8 @@ let susiSchool = txtOrign.replace ("Sam", "Susi") .replace("codingschool", "scho
 let samTennis = txtOrign.replace("codingschool", "Tennis");
 
 document.write("<br>" + samSchool + "<br>" + susiSchool + "<br>" + samTennis + "<br>")
+
+
 
 
 // lev1_8: toLowerCase-toUpperCase
@@ -117,6 +126,7 @@ let case5 = `${text2}` + text1.slice(3).replace("codingschool", "school") + ` an
 document.write("<br>" + case1 + "<br>" + case2 + "<br>" + case3 + "<br>" + case4 + "<br>" + case5 + "<br>"+ "<br>")
 
 
+
 // // lev1_1: template-literals
 
 const myFirstName = "Laura-Ann"
@@ -133,4 +143,4 @@ let holiday = "überall wo ich mich wohlfühle"
 
 document.write (`Mein Name ist ${myFirstName} ${myLastName} und ich bin ${myAge} Jahre alt. Meine Größe und mein Gewicht sind ${size}m und ${weight}kg. Mein Lieblingshobby ist ${hobby} und mein Lieblingsessen ist ${food} und als Lieblingssport gehe ich ${sport}. Meine Lieblingsjahreszeit ist ${season} und ich mache gerne Urlaub ${holiday}.`)
 
-console.log(`Mein Name ist ${myFirstName} ${myLastName} und ich bin ${myAge} Jahre alt. Meine Größe und mein Gewicht sind ${size}m und ${weight}kg. Mein Lieblingshobby ist ${hobby} und mein Lieblingsessen ist ${food} und als Lieblingssport gehe ich ${sport}. Meine Lieblingsjahreszeit ist ${season} und ich mache gerne Urlaub ${holiday}.`);
+// console.log(`Mein Name ist ${myFirstName} ${myLastName} und ich bin ${myAge} Jahre alt. Meine Größe und mein Gewicht sind ${size}m und ${weight}kg. Mein Lieblingshobby ist ${hobby} und mein Lieblingsessen ist ${food} und als Lieblingssport gehe ich ${sport}. Meine Lieblingsjahreszeit ist ${season} und ich mache gerne Urlaub ${holiday}.`);
