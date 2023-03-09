@@ -5,11 +5,11 @@ console.log("läuft");
 
 let firstName = "Paula";
 let lastName = "Powerfrau";
-console.log(firstName.length);
-console.log(lastName.length);
+console.log(`${firstName}: ` .concat(firstName.length)) ;
+console.log(`${lastName}: ` .concat(lastName.length));
 
 let fullName = firstName + lastName;
-console.log(fullName.length);
+console.log(`${fullName}: ` .concat(fullName.length));
 
 
 
@@ -17,9 +17,9 @@ console.log(fullName.length);
 
 const txt = "How inappropriate to call this planet Earth, when clearly it is Ocean.";
 
-console.log(txt.indexOf("h"))
-console.log(txt.indexOf("Earth"))
-console.log(txt.indexOf("Moon"))
+console.log("h ".concat(txt.indexOf("h")))
+console.log("Earth ".concat(txt.indexOf("Earth")))
+console.log("Moon ".concat(txt.indexOf("Moon")))
 
 
 
